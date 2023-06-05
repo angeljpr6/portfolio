@@ -20,7 +20,7 @@
                 <p>Hola, mi nombre es Ángel, vivo en Las Palmas de Gran Canaria. Soy un freelancer que trabaja en proyectos por todo el mundo.</p>
             </div>
             <div>
-                <p>Tengo conocimiento en el desarrollo de paginas web con html y css, ademas de gran habilidad manejando java sobretodo en dispositivos moviles.</p>
+                <p>Tengo conocimiento en el desarrollo de paginas web con html y css, ademas de gran habilidad manejando java.</p>
             </div>
         </section>
         <section id="menu" class="menu">
@@ -59,13 +59,15 @@
         <div id="car" class="carrera">
             <section class="proyecto">
                 <h3>Mis Proyectos</h3>
-                <a href="#">Otro Portfolio</a>
+                <a href="https://github.com/angeljpr6/pokemostros">Pokemonstros</a>
+                <a href="https://github.com/angeljpr6/tiendaropa">Pagina de tienda de ropa</a>
+                <a href="https://angeljpr6.github.io/Social-proof-section/">Ejemplo de sección de comentarios</a>
             </section>
             <section class="habilidad">
                 <h3>Habilidades y Experiencia</h3>
-                <p>Nivel alto: Html, Css, Java</p>
-                <p>Nivel medio: C, C++, C#, Python</p>
-                <p>Manejo de programas(Office, Dia, VisualStudio, ResponsivelyApp...)</p>
+                <p>Nivel medio: Html, Css, Java</p>
+                <p>Nivel basico: C, C++, C#, Python</p>
+                <p>Manejo de programas(Office, Dia, VisualStudio, Intellij, ResponsivelyApp...)</p>
                 <p>Gran experiencia tanto en el trabajo en equipo <br> como en le trabajo individual</p>
             </section>
         </div>
@@ -95,48 +97,46 @@
         </div>
     </section>
     <section class="cuerpo3">
-        <form class="formulario">
-            <fieldset id="form">
+
+        <form action="" class="formulario" id="form">
             <legend>Tambien puedes contactarme a través de este formulario</legend>
             <div class="contenedor-campos">
                 <div class="campo">
-                <label>Nombre</label>
-                <input class="input-text" type="text" placeholder="tu nombre">
+                    <input type="text" class="input-text" placeholder="tu nombre" id="name">
+                    <label for="" class="formulario__label">Nombre</label>
                 </div>
-    
+
                 <div class="campo">
-                <label >telefono</label>
-                <input class="input-text" type="tel" placeholder="tu telefono">
+                    <input type="text" class="input-text" placeholder="tu email" id="email">
+                    <label for="" class="formulario__label">Correo</label>
                 </div>
-    
+
                 <div class="campo">
-                <label >Correo</label>
-                <input class="input-text" type="email" placeholder="tu email">
+                    <input type="text" class="input-text" placeholder="tu telefono" id="telefono">
+                    <label for="" class="formulario__label">Teléfono</label>
                 </div>
-    
+
                 <div class="campo">
-                <label >Mensaje</label>
-                <input class="input-text" type="text" placeholder="deja tu mensaje">
-                </div>
-    
+                    <input type="text" class="input-text" placeholder="deja tu mensaje" id="mensaje">
+                    <label for="" class="formulario__label">Mensaje</label>
+                </div>   
             </div>
-            <a href="#">Enviar</a>
-            
-            </fieldset>
+            <div class="contenedor-boton">
+                <input type="submit" class="boton">
+                <p class="warning" id="warning"></p>
+            </div>
         </form>
+
+        <script src="script.js"></script>
         <div class="inic2">
 
             <a href="#car">Proyectos</a>
-
             <a href="#car">Experiencia</a>
-
             <a href="#">Inicio</a>
 
-            
         </div>
         <div class="contForm">
             <section class="contacto">
-
                 <a href="https://instagram.com/angeljpr02"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                     <rect x="4" y="4" width="16" height="16" rx="4" />
